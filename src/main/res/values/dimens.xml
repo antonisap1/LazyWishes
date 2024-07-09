@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="margin_layout_dev1">15dp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="imageDetailVLayoutHeight">249dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="minusOne">-1dp</dimen>
+    <dimen name="minusTwo">-2dp</dimen>
+    <dimen name="One">1dp</dimen>
+    <dimen name="TwoSixNine">269dp</dimen>
+    <dimen name="TwoFortyOne">241dp</dimen>
+    <dimen name="TwoThreeNine">239dp</dimen>
+    <dimen name="FourTwoNine">429dp</dimen>
+    <dimen name="TwoThirty">230dp</dimen>
+    <dimen name="Twenty">20dp</dimen>
+    <dimen name="TwoHundred">200dp</dimen>
+
+
+</resources>

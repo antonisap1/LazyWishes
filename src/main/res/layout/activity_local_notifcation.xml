@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Local_Notification">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        style="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/titleET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/title" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/Twenty"
+        android:layout_marginTop="@dimen/Twenty"
+        style="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/messageET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/message" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:paddingHorizontal="@dimen/Twenty">
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/TwoHundred"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-30dp"
+            android:layout_marginRight="-30dp"
+            android:layout_weight="1"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:scaleX="0.8"
+            android:scaleY="1.2" />
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="@dimen/zero"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-30dp"
+            android:layout_marginRight="-30dp"
+            android:layout_weight="1"
+            android:scaleX="0.8"
+            android:scaleY="1.2"
+            android:timePickerMode="spinner" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="135dp"
+        android:text="@string/add_a_notification" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:menu="@menu/bottom_nav"
+        android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottonnav"
+        android:layout_weight="1"
+        >
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</LinearLayout>

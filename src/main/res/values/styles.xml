@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="MytoolbarStyle" parent="ThemeOverlay.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:colorBackground">@color/blue</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

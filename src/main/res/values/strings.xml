@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">LazyWishes</string>
+    <string name="forward"><![CDATA[->]]></string>
+    <string name="Backward"><![CDATA[<-]]></string>
+    <string name="feb_2023">Feb 2023</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thur">THUR</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="mon">MON</string>
+    <string name="sun">SUN</string>
+    <string name="channel_description">lol</string>
+    <string name="show_notification_details_here">Show Notification Details Here...</string>
+    <string name="channel_name">lol</string>
+    <string name="title">title</string>
+    <string name="message">Message</string>
+    <string name="schedule_notification">schedule_notification</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="contacts">contacts</string>
+    <string name="Contacts">Contacts</string>
+    <string name="add_notification">Add Notification</string>
+    <string name="add_a_notification">Add Notification</string>
+    <string name="add_message">Add message</string>
+    <string name="enter_eorti">Enter eorti</string>
+    <string name="add_eorti">Add eorti</string>
+    <string name="enter_message">Enter message</string>
+    <string name="enter_perigrafi">Enter perigrafi</string>
+    <string name="enter_minas">Enter minas</string>
+    <string name="refresh_or_choose_for_suggested_wishes_of_the_day">REFRESH OR CHOOSE FOR SUGGESTED WISHES OF THE DAY :</string>
+    <string name="new_event">New Event</string>
+    <string name="giortazoun_simera_oi">GIORTAZOUN SIMERA OI:</string>
+    <string name="automate">Automate</string>
+    <string name="choose">Choose</string>
+    <string name="refresh">Refresh</string>
+    <string name="hello">Hello!</string>
+    <string name="weekly">Weekly</string>
+</resources>
